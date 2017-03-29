@@ -1,4 +1,4 @@
-//求百分数
+package acmcoder;//求百分数
 
 import java.text.DecimalFormat;
 //标准输入

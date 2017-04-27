@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 /**
  * Created by Administrator on 2017/4/27.
+ * k趟选择排序
  */
 public class 最小k个数 {
     public static void main(String[] args) {

@@ -5,6 +5,11 @@ import java.util.Map;
 
 /**
  * Created by Administrator on 2017/4/27.
+ * 利用一个HashMap，k是数组元素，value是出现的次数，
+ * put时判断是否存在key，如果存在，取出当前的key对应的value，加1后重新put覆盖之前的记录
+ * 如果不存在，直接put，value设置为1
+ *
+ * 然后遍历map，当entry.getValue()大于数组长度的一半时，返回当前的key。
  */
 public class 数字出现次数大于数组长度一半 {
     public static void main(String[] args) {
